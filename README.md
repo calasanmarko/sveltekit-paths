@@ -24,7 +24,7 @@ A Vite plugin that automatically generates TypeScript types for all your SvelteK
 ```typescript
 // vite.config.ts
 import { sveltekit } from "@sveltejs/kit/vite";
-import { sveltepaths } from "./src/lib/sveltekit-paths";
+import { sveltepaths } from "sveltekit-paths";
 import { defineConfig } from "vite";
 
 export default defineConfig({
