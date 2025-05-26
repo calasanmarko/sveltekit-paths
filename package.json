@@ -1,10 +1,11 @@
 {
   "name": "sveltekit-paths",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "description": "Generate TypeScript types from SvelteKit routes",
   "keywords": [
     "sveltekit",
     "svelte",
