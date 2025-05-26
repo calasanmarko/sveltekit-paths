@@ -1,0 +1,24 @@
+{
+  "name": "sveltekit-paths",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "format:check": "prettier --check src/",
+    "format:fix": "prettier --write src/",
+    "lint:check": "eslint src/",
+    "check:all": "npm run check && npm run lint:check && npm run format:check",
+    "prepublishOnly": "npm run check:all && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.32.1"
+  }
+}

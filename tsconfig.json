@@ -1,0 +1,28 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "declaration": true,
+
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleDetection": "force",
+        "moduleResolution": "nodenext",
+        "isolatedModules": true,
+        "allowJs": true,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true,
+        "strict": true,
+
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true
+    }
+}
