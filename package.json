@@ -1,8 +1,9 @@
 {
   "name": "sveltekit-paths",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "license": "MIT",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Vite plugin to generate TypeScript types from SvelteKit routes",
