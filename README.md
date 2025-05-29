@@ -35,7 +35,21 @@ export default defineConfig({
 });
 ```
 
-### 2. Use the generated types
+### 2. TypeScript Configuration
+
+**Important**: You need to include the generated type definition file in your TypeScript configuration for the types to be recognized.
+
+Add the generated types file to your `tsconfig.json`:
+
+```json
+{
+    "compilerOptions": {
+        "types": [".vite/sveltekit-paths"]
+    }
+}
+```
+
+### 3. Use the generated types
 
 The plugin creates a module declaration that you can import and use:
 

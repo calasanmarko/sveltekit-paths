@@ -63,8 +63,8 @@ declare module "$sveltekit-paths" {
 }
 `;
 
-    await mkdir(".svelte-kit/types/sveltekit-paths", { recursive: true });
-    await writeFile(".svelte-kit/types/sveltekit-paths/$types.d.ts", typeContent);
+    await mkdir("node_modules/.vite", { recursive: true });
+    await writeFile("node_modules/.vite/sveltekit-paths.d.ts", typeContent);
 };
 
 export const sveltekitPaths = () => ({
